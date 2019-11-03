@@ -5,7 +5,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Notes</title>
+        
+    <title>Notes</title>
     </head>
     <body>
         <h1>Notes</h1>
@@ -21,9 +22,9 @@
                     <td width="200">${note.title}</td>
                     <td>   
                         <form action="
-                              <c:url value='notes'>
-                              <c:param name='action' value='show'/>
-                              </c:url>" method="post">
+                            <c:url value='notes'>
+                            <c:param name='action' value='show'/>
+                            </c:url>" method="post">
                             
                             <input type="hidden" name='id' value="${note.noteid}">
                             <input type="submit" value="edit">

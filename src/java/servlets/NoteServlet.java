@@ -1,6 +1,5 @@
 package servlets;
 
-
 import services.NoteService;
 import javax.servlet.http.HttpServlet;
 import java.io.IOException;
@@ -34,8 +33,8 @@ public class NoteServlet extends HttpServlet {
 
     }
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+     @Override
+     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         NoteService ns = new NoteService();
